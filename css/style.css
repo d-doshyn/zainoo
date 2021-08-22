@@ -137,7 +137,7 @@ A.a-main:active{
 
 .more-about {
     display: flex;
-    margin-bottom: 65px;
+    margin-bottom: 130px;
 }
 
 .scroll{
@@ -318,11 +318,6 @@ A.link:link{
     margin-bottom: 60px;
 }
 
-.pack{
-    writing-mode: vertical-lr;
-    margin: 50%;
-}
-
 A.team-a:link{
     text-decoration: none;
     color: black;
@@ -333,9 +328,10 @@ A.team-a:visited{
     color: black;
 }
 
-.soc{
+.pack{
     writing-mode: vertical-lr;
     margin: 30%;
+    transform: rotate(180deg);
 }
 
 A.net:link{
@@ -355,72 +351,4 @@ A.net:visited{
     align-items: end;
 }
 
-@media screen and (max-width: 768px){
-    .row{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .icons{
-        max-width: none;
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-    }
-
-    .main-menu{
-        width: 100%;
-    }
-
-    .all{
-        justify-content: center;
-    }
-
-    .left-menu{
-        text-align: center;
-    }
-
-    .info{
-        justify-content: center;
-    }
-
-    .more-about{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .left-site-column{
-        display: block;
-
-    }
-
-    .main-menu li{
-        margin-top: 20px;
-    }
-
-    .one-line{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .scroll{
-        display: flex;
-        justify-content: center;
-        margin-left: 0;
-    }
-
-    .buttons{
-        justify-content: center;
-    }
-
-    .button1{
-        margin-left: 0;
-    }
-
-    .first-layer{
-        position: absolute;
-    }
-}
