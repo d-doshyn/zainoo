@@ -93,7 +93,7 @@ header{
 }
 
 .left-site-column{
-    width: 18%;
+    max-width: 20%;
 }
 
 A.a-main:link {
@@ -172,19 +172,12 @@ A.to-up:visited{
     display: flex;
 }
 
-.right-menu{
-    text-align: right;
-    margin-top: 2%;
-    display: flex;
-    justify-content: space-between;
-}
-
 .all{
     display: flex;
     /* flex-wrap: wrap;  */
-    /* justify-content: space-between;  */
+    justify-content: space-between; 
     width: 100%;
-    float: left;
+    /* float: left; */
 }
 
 .first-layer{
@@ -194,7 +187,7 @@ A.to-up:visited{
     color:rgb(228, 200, 163);
     z-index: -86;
     position: absolute;
-    top: 70px;
+    top: 20px;
     right: 200px;
 }
 
@@ -311,23 +304,25 @@ A.link:link{
     /* display: flex; */
     /* justify-content: end; */
     margin-left: 200px;
-    z-index: -85;
+    /* z-index: -85; */
+    width: 900px;
+}
+
+.shoe img {
+    width: 100%;
 }
 
 .middle-part{
    display: flex;
    flex-direction: column;
    justify-content: flex-end; 
+   max-width: 75%;
 }
 
 .team{
     display: flex;
     flex-direction: column-reverse;
     margin-bottom: 150px;
-}
-
-.social{
-    margin-bottom: 60px;
 }
 
 A.team-a:link{
@@ -361,6 +356,13 @@ A.net:visited{
     display: flex;
     flex-direction: column;
     align-items: end;
+    text-align: right;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 5%;
 }
 
-
+.slide-number{
+    text-align: center;
+}
