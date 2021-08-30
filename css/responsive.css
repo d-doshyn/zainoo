@@ -182,7 +182,7 @@
 
     .first-layer{
         top: 900px;
-        left: 75px;
+        left: 80px;
     }
 
     .number{
@@ -199,5 +199,47 @@
 
     .line{
         height: 420%;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .line{
+        height: 410%;
+    }
+
+    .number{
+        font-size: 110%;
+    }
+
+    .first-layer{
+        top: 920px;
+        left: 65px;
+    }
+}
+
+@media screen and (max-width: 321px){
+    .p{
+        font-size: 17px;
+    }
+
+    .the-mainest{
+        font-size: 45px;
+    }
+
+    .button, .button1{
+        width: 130px;
+    }
+
+    .shoe{
+        max-width: 270px;
+    }
+
+    .first-layer{
+        top: 910px;
+        left: 40px;
+    }
+
+    .line{
+        height: 400%;
     }
 }
