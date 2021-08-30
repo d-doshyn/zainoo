@@ -1,69 +1,154 @@
+@media screen and (max-width: 1024px){
+    .line{
+        left: 17%;
+        height: 140%;
+    }
+
+    .line1{
+        left: 35%;
+    }
+
+    .line2{
+        left: 55%;
+    }
+
+    .line3{
+        left: 75%;
+    }
+
+    .first-layer{
+        font-size: 1200%;
+        top: 100px;
+        right: 100px;
+    }
+
+    .shoe{
+        width: 760px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .line{
+        height: 144%;
+    }
+}
+
 @media screen and (max-width: 768px){
     .row{
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 
     .icons{
-        max-width: none;
         display: flex;
-        width: 100%;
         justify-content: space-around;
+        width: 100%;
     }
 
-    .main-menu{
-        width: 100%;
+    .logo{
+        margin-bottom: 20px;
     }
 
     .all{
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
     }
 
-    .left-menu{
-        text-align: center;
-    }
-
-    .info{
-        justify-content: center;
-    }
-
-    .more-about{
+    .left-site-column{
+        max-width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .left-site-column{
-        display: block;
-
+    .a-main{
+        justify-content: center;
+        font-size: 30px;
     }
 
-    .main-menu li{
-        margin-top: 20px;
+    .info{
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .more-about{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    .column{
+        width: 100%;
+        margin-bottom: 70px;
     }
 
     .one-line{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    .learn-more{
+        font-size: 30px;
+    }
+
+    .to-up{
+        justify-content: center;
     }
 
     .scroll{
-        display: flex;
-        justify-content: center;
-        margin-left: 0;
+        margin: 0;
+    }
+
+    .shoe{
+        width: 650px;
+    }
+
+    .main-text{
+        text-align: center;
+        margin-bottom: 1px;
+    }
+
+    .middle-part{
+        align-items: center;
+        max-width: 100%;
     }
 
     .buttons{
+        justify-content: space-evenly;
+    }
+
+    .line{
+        height: 480%;
+    }
+
+    .right-menu{
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .team{
+        max-width: 100%;
+        transform: rotate(90deg);
+        font-size: 30px;
+        margin: 0;
+        height: 100px;
+        display: flex;
         justify-content: center;
     }
 
-    .button1{
-        margin-left: 0;
+    .social{
+        max-width: 100%;
+        transform:rotate(90deg);
+        font-size: 30px;
+        margin: 0;
+        height: 100px;
     }
 
     .first-layer{
-        position: absolute;
+        top: 950px;
+        right: 210px;
     }
 }
